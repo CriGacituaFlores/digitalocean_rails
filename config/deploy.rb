@@ -1,9 +1,9 @@
 # Change these
-server '167.99.148.86', port: 22, roles: [:web, :app, :db], primary: true
+server '104.131.87.92', port: 22, roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'git@github.com:CriGacituaFlores/digitalocean_rails.git'
 set :application,     'testapp'
-set :user,            'root'
+set :user,            'deploy'
 set :puma_threads,    [4, 16]
 set :puma_workers,    0
 
