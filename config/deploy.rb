@@ -1,5 +1,5 @@
 # Change these
-server '159.65.46.205', port: 7171, roles: [:web, :app, :db], primary: true
+server '167.99.148.86', port: 22, roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'git@github.com:CriGacituaFlores/digitalocean_rails.git'
 set :application,     'testapp'
